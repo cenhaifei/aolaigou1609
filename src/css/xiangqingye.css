@@ -1,0 +1,460 @@
+.lie{
+	width:1200px;
+	height:45px;
+	margin: auto;
+	margin-top: 80px;
+}
+.lie_xq ul li{
+	float: left;
+	font-size: 14px;
+	margin-right: 5px
+}
+.lie1{
+	color: #666;
+}
+
+.tb{
+	width: 22px;
+    height: 22px;
+    display: block;
+    background-position: -184px -618px!important;
+    position: relative;
+    top: -5px;
+    left: 0px;
+    margin-right: 5px
+    
+}
+.tb{
+	background: url(../images/index/core.png);
+}
+
+.max{
+	width: 1200px;
+	margin: auto;
+}
+.max_left{
+	width: 400px;
+	float: left;
+}
+.fangda{
+	width: 1198px;
+	border: 1px solid #e6e6e6;
+    padding: 20px 0px;
+    overflow: hidden;
+}
+
+.box{width:310px;margin: 10px 15px;}
+.tb-pic a{display:table-cell;text-align:center;vertical-align:middle;}
+.tb-pic a img{vertical-align:middle;}
+.tb-pic a{*display:block;*font-family:Arial;*line-height:1;}
+.tb-thumb{margin:10px 0 0;overflow:hidden;}
+.tb-thumb li{background:none repeat scroll 0 0 transparent;float:left;height:42px;margin:0 6px 0 0;overflow:hidden;padding:1px;}
+.tb-s310, .tb-s310 a{height:310px;width:310px;}
+.tb-thumb li img{
+	width: 40px;
+}
+.tb-s310, .tb-s310 img{max-height:310px;max-width:310px;}
+.tb-s310 a{*font-size:271px;}
+.tb-s40 a{*font-size:35px;}
+.tb-s40, .tb-s40 a{height:40px;width:40px;}
+.tb-booth{border:1px solid #CDCDCD;position:relative;z-index:1;}
+.tb-thumb .tb-selected{background:none repeat scroll 0 0 #C30008;height:40px;padding:2px;}
+.tb-thumb .tb-selected div{background-color:#FFFFFF;border:medium none;}
+.tb-thumb li div{border:1px solid #CDCDCD;}
+div.zoomDiv{z-index:999;position:absolute;top:0px;left:0px;width:200px;height:200px;background:#ffffff;border:1px solid #CCCCCC;display:none;text-align:center;overflow:hidden;}
+div.zoomMask{position:absolute;background:url("../images/list/mask.png") repeat scroll 0 0 transparent;cursor:move;z-index:1;}
+
+.max_right{
+	float: left;
+	width: 750px;
+}
+.xq{
+	width: 500px;
+	margin-left: 10px;
+	float: left;
+}
+.biaoti span{
+	width: 58px;
+    height: 20px;
+    display: block;
+    background-position: -324px -828px;
+    float: left;
+    margin-top: 4px;
+}
+.zy{
+	margin-right: 10px;
+	background: url(../images/list/men-bg.png) no-repeat;
+}
+.biaoti div{
+    font-size: 15px;
+    font-family: Microsoft YaHei,simhei;
+    line-height: 25px;
+    overflow: hidden;
+    color: #666;
+}
+
+.pic{
+    width: 480px;
+    background: #f8f8f8;
+    margin-top: 10px;
+    padding: 10px 10px;
+}
+.pic_bg{
+	color: #333;
+    line-height: 30px;
+    height: 30px;
+    font-size: 15px;
+}
+.pic span{
+	color: #333;
+    line-height: 30px;
+}
+.pic em{
+	font-size: 18px;
+    font-weight: bold;
+    color: #ff3344;
+}
+.pic del{
+	color: #b2b2b2;
+    margin-left: 8px;
+}
+.colo ul li{
+	float: left;
+}
+.yans{
+	overflow: hidden;
+    margin-top: 10px;
+
+}
+.yan_li1{
+	color: #666;
+    width: 60px;
+    margin-left: 10px;
+    line-height: 38px;	
+}
+.ptattr {
+    height: 25px;
+    line-height: 25px;
+    padding: 0px 5px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-top: 5px;
+    position: relative;
+}
+.dagou{
+
+}
+.ptattr em{
+	width: 18px;
+    height: 14px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-position: -363px -500px;
+}
+.dagou{
+	background: url(../images/index/core.png) no-repeat;
+}
+
+.g_car{
+	margin-top: 15px;
+    overflow: hidden;
+}
+
+.numb1{
+	color: #666;
+    width: 60px;
+    margin-left: 10px;
+    float: left;
+/*    width: auto;
+    min-width: 60px;*/
+}
+.nub_1,.nub_2{
+	line-height: 20px;
+}
+.nub_2 span{
+	color: red;
+	margin: 0 3px;
+	font-size: 14px;
+}
+.pt-nk,.pt-ns{
+	float: left;
+}
+
+.numb2{
+	width: 65px;
+	float: left;
+}
+.datanub-value{
+    width: 28px;
+    height: 39px;
+    text-align: center;
+    line-height: 38px;
+    border: 1px solid #ccc;
+}
+.pt-ns a {
+    width: 24px;
+    height: 19px;
+    display: block;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 19px;
+    color: #333;
+    border-left: none;
+}
+.pt-ns a{
+	text-decoration: none;
+}
+.numb3{
+	float: left;
+}
+.g_car ul li.numb3 a{
+	width: 140px;
+    height: 40px;
+    display: block;
+    color: #fff;
+    background: #ff3344;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.saoma{
+	width: 145px;
+    height: 40px;
+    margin-left: 10px;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    float: left;
+}
+.saoma span {
+    width: 18px;
+    height: 26px;
+    display: block;
+    position: relative;
+    top: 8px;
+    left: 15px;
+    background-position: -394px -852px;
+}
+
+.sao{
+	background: url(../images/index/core.png) no-repeat;
+}
+/*.g_car{
+	width: 300px;
+	float: left;
+}*/
+.g_car ul{
+	float: left;
+}
+.saoma ul {
+    position: relative;
+    top: -18px;
+    left: 46px;
+}
+
+.guanggao{
+    float: right;
+    width: 190px;
+    margin-right: 8px;
+    overflow: hidden;
+}
+.brank{
+	width: 160px;
+    height: 91px;
+    text-align: center;
+    border-bottom: 1px dashed #e6e6e6;
+    margin: 0 auto;
+    display: block;
+}
+.zhong ul li{
+    color: #999;
+    line-height: 25px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 2px;	
+}
+.rt-val1 {
+    width: auto;
+    min-width: 70px;
+}
+.rt-val1 {
+    width: 70px;
+    text-align: right;
+    float: left;
+}
+.rt-val2 {
+    float: left;
+    width: 115px;
+    overflow: hidden;
+    height: 25px;
+}
+.zhong{
+	border-bottom: 1px dashed #e6e6e6;
+    padding-bottom: 15px;
+}
+.zhong ul li span {
+    width: 18px;
+    height: 26px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 75px;
+    background-position: -394px -852px;
+}
+.er_w {
+    background: url(../images/index/core.png) no-repeat;
+}
+.dis{
+	margin-top: 15px;
+    overflow: hidden;
+}
+.dis ul {
+    overflow: hidden;
+    float: left;
+    margin-left: 12px;
+    margin-top: 5px;
+}
+.dis ul li.dis_li1{
+	background: url(../images/index/core.png) no-repeat;
+}
+.dis ul li.dis_li1{
+	    width: 45px;
+    height: 35px;
+	background-position: -688px -849px;
+}
+.dis_li2{
+	color: #999;
+}
+.pt-warp {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.btou{
+
+    height: 40px;
+    background: #fafafa;
+    border-bottom: 1px solid #e6e6e6;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    color: #c71417;
+    font-weight: bold;
+}
+
+.left_zuo {
+    float: left;
+    width: 188px;
+    padding-bottom: 20px;
+    border: 1px solid #e6e6e6;
+}
+.pt-left {
+    float: left;
+    width: 190px;
+    overflow: hidden;
+}
+.btou span.ppp {
+    width: 37px;
+    height: 36px;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-position: -960px -845px;
+}
+.ppp {
+    background: url(../images/index/core.png) no-repeat;
+}
+.bcon ul {
+    width: 140px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.bcon ul li.left-conli-txt a {
+    color: #333;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    line-height: 20px;
+    margin-top: 10px;
+}
+.bcon ul li.left-conli-val {
+    color: #ff3344;
+    font-weight: bold;
+    height: 20px;
+    overflow: hidden;
+    display: block;
+    line-height: 20px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.pt-right {
+    width: 1000px;
+    float: right;
+}
+.tab_tit{
+	overflow: hidden;
+    background: #fafafa;
+    border: 1px solid #e6e6e6;	
+}
+.active{
+    background: #fff!important;
+    border-top: 2px solid #c51811!important;
+}
+.tab_tit div{
+	display: block;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 180px;
+    text-align: center;
+    background: #e6e6e6;
+    font-weight: bold;
+    color: #666;
+    border-bottom: none;
+    border-top: 2px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+}
+.tat2{
+	display: none;
+}
+.seav{
+    padding-left: 30px;
+    overflow: hidden;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.seav dl{
+    width: 960px;
+    overflow: hidden;
+}
+.seav dl dd{
+    color: #666;
+    line-height: 25px;
+    width: 240px;
+    float: left;
+}
+.tab_alt{
+	border: 1px solid #e6e6e6;
+    border-top: none;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+

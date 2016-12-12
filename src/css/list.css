@@ -1,0 +1,118 @@
+/*bootstrap影响样式,进行改正*/
+.header_search_main{
+	height: 41px !important;
+}
+.container{
+	width: 1200px !important;
+}
+.footer{
+	font-size: 12px !important;
+}
+
+
+.search_left{
+	height: auto;
+	overflow: hidden;
+	float: left;
+
+}
+.search_left img{
+	width: 160px;
+	height: 160px;
+}
+.search_left p{
+	text-indent: 10px !important;
+}
+.fl{
+	float: left;
+}
+
+.search_right{
+	width: 940px;
+	overflow: hidden;
+	float: left;
+
+}
+.goods_filter table a{
+	color: #005AA0;
+	margin-right: 10px;
+}
+.goods_filter table tr td:first-child{
+	width: 100px;
+}
+.goods_filter table tr td{
+	border-top: 1px dashed #ddd;
+}
+
+
+.goods_list{
+	padding: 10px 0 0 30px;
+	width: 950px;
+	overflow: hidden;
+}
+.goods_list img{
+	width: 195px;
+	height: 195px;
+	margin: 0 0 15px 0;
+}
+.good{
+	width: 210px;
+	height: 307px;
+	line-height: 22px;
+	margin: 0 20px 5px 0;
+	overflow: hidden;
+	padding: 15px 8px;
+	cursor: pointer;
+}
+.price{
+	color: #D93500;
+}
+.good:hover{
+	border: 1px #ddd solid;
+	box-shadow: 2px 2px 10px rgba(0,0,0,0.2)
+}
+
+.page_info, .pageCount_info{
+	margin: 0 5px;
+}
+
+.goods_page{
+	overflow: hidden;
+}
+
+.cart_over{
+	width: 80px;
+	height: 80px;
+	position: absolute;
+	bottom: 20px;
+	right: 10px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 901;
+}
+.cart_over img{
+	width: 80px;
+	height: 80px;
+}
+.cart_over .show_count{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	line-height: 28px;
+	text-align: center;
+	font-size: 16px;
+	color: #000;
+	height: 28px;
+	width: 27px;
+	color: #0162ac;
+	font-weight: bolder;
+}
+.xm{
+	position: relative;
+    top: 19px;
+}
+.navbar-right{
+	width:300px !important;
+	position: relative;
+    top: -25px;
+}

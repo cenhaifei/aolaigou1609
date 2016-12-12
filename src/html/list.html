@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表页</title>
+		<!-- JQuery加载 -->
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<!--Bootstrap-3.3.0插件-->
+		<script src="../plug/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--JQuery Cookie插件加载-->
+		<script src="../plug/jquery-cookie-v1.4.1/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<!--layer-v2.4 弹窗插件加载-->
+		<script src="../plug/layer-v2.4/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<!-- fly飞入购物车插件加载-->
+		<script src="../plug/fly-master/dist/jquery.fly.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../plug/fly-master/src/requestAnimationFrame.js" type="text/javascript" charset="utf-8"></script>
+		<!--支持IE-->
+		<!-- Javascript加载 -->
+		<script type="text/javascript" src="../js/list.js"></script>
+		<!--Bootstrap-3.3.0插件-->
+		<link rel="stylesheet" type="text/css" href="../plug/bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" />
+		<!-- 样式加载 -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/list.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+		<link rel="stylesheet" type="text/css" href="../plug/font-awesome-4.6.3/css/font-awesome.min.css" />
+	</head>
+
+	<body>
+		<!--头部-公共 js加载-->
+		<div id="header"></div>
+
+		<div class="content wbody container">
+			<!--路径导航条-->
+			<ol class="breadcrumb">
+				<span class="glyphicon glyphicon-home"></span>
+				<li>
+					<a href="index.html">主页</a>
+				</li>
+				<li>
+					<a href="#">手机数码</a>
+				</li>
+				<li class="active">手机</li>
+			</ol>
+
+			<div class="search_left fl">
+				<div class="panel panel-info" style="width: 205px;">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>所有类目</strong></h3>
+					</div>
+					<div class="panel-body" style="padding: 0">
+						<div class="panel panel-default" style="margin-bottom: 0;">
+							<div class="panel-heading">
+								<h5 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse_5" style="cursor: pointer;"><span class="
+								glyphicon glyphicon-th-list" style="margin-right: 5px; background-color: #CCC;"></span>手机通讯</h5>
+							</div>
+							<div id="collapse_5" class="panel-collapse collapse in">
+								<div class="panel-body" style="padding: 0;">
+									<div class="list-group" style="margin: 0;">
+										<a href="#" class="list-group-item" id="memberInfo">手机</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="panel panel-info" style="width: 205px;">
+					<div class="panel-heading">
+						<h3 class="panel-title"><strong>热卖商品</strong></h3>
+					</div>
+					<div class="panel-body" style="padding: 10px; padding-top: 0;">
+						<table class="table">
+							<tr>
+								<td>
+									<a href="#"><img src="../img/goods_detail/list/201309151225217102.jpg" /></a>
+									<p>
+										<a href="#">iPhone5S(4G开放版)16G金</a>
+									</p>
+									<p>商城价：￥2188.00</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><img src="../img/goods_detail/list/201309151225217102.jpg" /></a>
+									<p>
+										<a href="#">iPhone5S(4G开放版)16G金</a>
+									</p>
+									<p>商城价：￥2188.00</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><img src="../img/goods_detail/list/201309151225217102.jpg" /></a>
+									<p>
+										<a href="#">iPhone5S(4G开放版)16G金</a>
+									</p>
+									<p>商城价：￥2188.00</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><img src="../img/goods_detail/list/201309151225217102.jpg" /></a>
+									<p>
+										<a href="#">iPhone5S(4G开放版)16G金</a>
+									</p>
+									<p>商城价：￥2188.00</p>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<a href="#"><img src="../img/goods_detail/list/201309151225217102.jpg" /></a>
+									<p>
+										<a href="#">iPhone5S(4G开放版)16G金</a>
+									</p>
+									<p>商城价：￥2188.00</p>
+								</td>
+							</tr>
+						</table>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="search_right fr">
+				<!--商品筛选-->
+				<div class="goods_filter">
+					<table class="table table-hover" style="border: 1px solid #ddd;">
+						<tr>
+							<td colspan="3">
+								<h4 style="text-indent: 10px;">商品筛选</h4></td>
+						</tr>
+						<tr>
+							<td align="right">品牌：</td>
+							<td>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+								<a href="#">华为</a>
+							</td>
+							<td>
+								<a href="">更多</a><i class="fa fa-sort-desc"></i></td>
+						</tr>
+						<tr>
+							<td align="right">屏幕尺寸：</td>
+							<td>
+								<a href="#">3.3.1-4.0英寸</a>
+								<a href="#">3.1-4.0英寸</a>
+								<a href="#">3.1-4.0英寸</a>
+								<a href="#">3.1-4.0英寸</a>
+								<a href="#">3.1-4.0英寸</a>
+							</td>
+							<td>
+								<a href="">更多</a><i class="fa fa-sort-desc"></i></td>
+						</tr>
+						<tr>
+							<td align="right">系统属性：</td>
+							<td>
+								<a href="#">安卓（Android）</a>
+								<a href="#">安卓（Android）</a>
+								<a href="#">安卓（Android）</a>
+								<a href="#">安卓（Android）</a>
+							</td>
+							<td>
+								<a href="">更多</a><i class="fa fa-sort-desc"></i></td>
+						</tr>
+						<tr>
+							<td align="right">运营商：</td>
+							<td>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+							</td>
+							<td>
+								<a href="">更多</a><i class="fa fa-sort-desc"></i></td>
+						</tr>
+						<tr>
+							<td align="right">CPU：</td>
+							<td>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+								<a href="#">移动3G</a>
+							</td>
+							<td>
+								<a href="">更多</a><i class="fa fa-sort-desc"></i></td>
+						</tr>
+
+					</table>
+				</div>
+
+				<!--排序及分页按钮-->
+				<div class="goods_sort">
+					<nav class="navbar navbar-default" role="navigation" style="min-height: 0; margin: 0;">
+						<div class="container-fluid">
+							<div class="collapse navbar-collapse">
+								<div class="navbar-form navbar-left xm" role="search" style="margin: 2px;">
+									<span style="margin-right: 5px;">排序方式：</span>
+									<div class="btn-group" style="margin-right: 20px;">
+										<button type="button" class="btn btn-default btn-group-xs">销量<span class="glyphicon glyphicon-chevron-down"></span></button>
+										<button type="button" class="btn btn-default btn-group-xs">新品<span class="glyphicon glyphicon-chevron-down"></span></button>
+										<button type="button" class="btn btn-default btn-group-xs">价格<span class="glyphicon glyphicon-chevron-down"></span></button>
+									</div>
+									<div class="checkbox">
+										<label>
+											<button type="button" class="btn btn-default btn-group-xs"><input type="checkbox"></b奥莱购utton>
+											<!--<button type="button" class="btn btn-default btn-group-xs"><input type="checkbox">平台商家</button>-->
+									    </label>
+									</div>
+									<div class="input-group" style="margin-left: 20px;">
+										<div class="input-group-addon">每页显示</div>
+										<input class="form-control page_goods_count" type="text" placeholder="16" style="width: 50px;">
+										<div class="input-group-addon">个</div>
+									</div>
+								</div>
+								<ul class="nav navbar-nav navbar-right">
+									<ul class="pager" style="margin: 5px;">
+										<label style="line-height: 30px; margin: 0 20px 0 0;">共 <span class="goodsCount_info"></span>个商品<span class="page_info"></span>/<span class="pageCount_info"></span></label>
+										<li>
+											<a href="#" class="prev">上一页</a>
+										</li>
+										<li>
+											<a href="#" class="next">下一页</a>
+										</li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</nav>
+
+				</div>
+
+				<!--商品列表-->
+				<div class="goods_list">
+
+					<!--存放商品的位置-->
+
+				</div>
+
+				<!--分页按钮-->
+				<div class="goods_page">
+
+					<label style="line-height: 30px; margin: 0 0 0 700px; ">共 <span class="goodsCount_info"></span>个商品<span class="page_info"></span>/<span class="pageCount_info"></span></label>
+					<div class="btn-toolbar fr" role="toolbar" style="margin: 0px 50px 0 0;">
+						<div class="btn-group">
+							<button type="button" class="btn btn-default prev">上一页</button>
+							<button type="button" class="btn btn-default next">下一页</button>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+		<div class="clear10"></div>
+		<!--尾部 - 页脚footer-->
+		<div id="footer"></div>
+
+		<!--购物车图标-->
+		<div class="cart_over cart_full">
+			<a href="shopping_car.html">
+			<img src="../images/list/g.jpg" />
+			<!--商品数量显示-->
+			<div class="show_count"></div></a>
+		</div>
+
+	</body>
+
+</html>

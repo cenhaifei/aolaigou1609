@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../plug/font-awesome-4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/signup.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
+
+	<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../plug/jquery-validation-1.15.0/dist/jquery.validate.min.js"></script>
+	<script src="../plug/jquery-validation-1.15.0/dist/localization/messages_zh.min.js" type="text/javascript" ></script>
+	<!--JQuery Cookie插件加载-->
+	<script src="../plug/jquery-cookie-v1.4.1/jquery.cookie.js" type="text/javascript"></script>
+	<!--layer-v2.4 弹窗插件加载-->
+	<script src="../plug/layer-v2.4/layer/layer.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../plug/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../js/signup.js"></script>	
+</head>
+<body>
+	<div id="header"></div>
+	<div class="zhuce">
+		<div class="zc1">
+			<a href="../index.html"><img src="../images/sig/1.jpg"></a>
+		</div>
+		<div class="zc2">
+			<a href="javascript:(0)"><img src="../images/sig/ao-zc.jpg"></a>
+		</div>
+	</div>
+<!-- 注册面板 -->
+	<div class="sup">
+		<div class="regBody">
+			<div class="sig1">
+				<a href="#"><img src="../images/sig/2.png"></a>
+			</div>
+			<div class="sig2">
+				<div class="nup">
+					<em>注册华盛奥莱会员</em>
+					<span><a href="login.html">已有账户，登录</a></span>
+				</div>
+				<form action="#" id="regForm">
+					<table>
+						<tr>
+							<td class="t_d"><b>*</b>注册账号：</td>
+							<td class="username">
+								<input type="text" name="username" class="required isPhone" placeholder="请输入手机号">
+								<i class="fa fa-user"></i>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><b>*</b>输入密码：</td>
+							<td class="pwd">
+								<input type="password" name="password" id="password" class="required isPassword" placeholder="请输入密码">
+								<i class="fa fa-unlock-alt"></i>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><b>*</b>确认密码：</td>
+							<td class="repwd">
+								<input type="password" name="repassword" class="required" placeholder="请输入密码">
+								<i class="fa fa-unlock-alt"></i>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td><b>*</b>验证码：</td>
+							<td class="code">
+								<input type="button" name="code" id="code" value="" />
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td class="codeCheck">
+								<input type="text" name="codeCheck" class="required" value_1="项目调试阶段，无需填写，即可通过注册。" disabled_1="disabled" style_1="width: 280px; color: #449D44; font-weight: bold; text-decoration: underline;">看不清？<a href="#" id="changeCode">换一张</a>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="checkbox" id="checkbox"/>我已阅读并同意<a href="">《奥莱购会员协议》</a>
+							</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td></td>
+							<td>
+								<input type="submit" name="" id="submit" value=""/>
+							</td>
+							<td></td>
+						</tr>
+					</table>
+					
+				</form>
+					
+			</div>
+
+		</div>
+	</div>
+	<div class="buy">Copyright © 2013-2016 深圳华盛电子商务有限公司 粤ICP备14007326号-1 All Right</div>
+</body>
+</html>

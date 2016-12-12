@@ -1,0 +1,361 @@
+/*bootstrap影响样式,进行改正*/
+
+.header_search_main {
+	height: 41px !important;
+}
+
+.container {
+	width: 1200px !important;
+	margin-top: 100px;
+}
+
+.footer {
+	font-size: 12px !important;
+}
+
+
+
+.good_left {
+	height: auto;
+	overflow: hidden;
+}
+
+.good_left img {
+	width: 160px;
+	height: 160px;
+	margin-left: 5px;
+}
+
+.good_left p {
+	text-indent: 10px !important;
+}
+
+.sameClass a {
+	width: 63px;
+	height: 25px;
+	margin-left: 9px;
+	display: block;
+	float: left;
+}
+
+.panel-info {
+	width: 218px;
+}
+
+.good_right {
+	width: 922px;
+	overflow: hidden;
+}
+
+.good_detail {
+	width: 970px;
+	overflow: hidden;
+}
+
+.good_detail_img img {
+	width: 230px;
+	height: 230px;
+}
+
+.good_detail_img {
+	width: 232px;
+	height: 252px;
+/*	border: 1px solid #ddd;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);*/
+	padding: 10px 0;
+}
+
+.good_detail_r {
+	width: 710px;
+	overflow: hidden;
+}
+
+.good_detail_r h4 {
+	border-bottom: 2px solid #DEDEDE;
+	width: 100%;
+	height: 35px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+.good_detail_r .price {
+	font-size: 20px;
+	color: #E81D0E;
+	font-weight: bold;
+}
+
+.good_detail_r p {
+	height: 30px;
+	line-height: 30px;
+}
+
+.good_detail_r dl {
+	overflow: hidden;
+	width: 440px;
+	margin-bottom: 10px;
+}
+
+.good_detail_r dt {
+	height: 60px;
+	line-height: 36px;
+	width: 60px;
+	float: left;
+}
+
+.good_detail_r dd {
+	float: left;
+	margin: 5px 0 0 9px;
+	background: #FFF;
+	height: 30px;
+	width: 66px;
+	line-height: 30px;
+	border: 2px solid #CDCDCD;
+	color: #666;
+	text-align: center;
+	cursor: pointer;
+}
+
+.good_detail_r a {
+	text-decoration: none;
+}
+
+.good_detail_r a:hover {
+	color: #E93900;
+}
+
+.aRed {
+	color: #E93900;
+	text-decoration: none;
+}
+
+.buyCount {
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+}
+
+.buyCount input {
+	text-indent: 11px;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.addBtn {
+	width: 300px;
+	height: 38px !important;
+	margin-bottom: 20px;
+}
+
+.addBtn img {
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.more_choose a {
+	width: 30px;
+	margin-left: 50px;
+}
+
+.more_btn {
+	width: 35px;
+	height: 17px;
+	padding: 0;
+}
+
+.more_choose .panel-body {
+	padding: 0 0 0 70px;
+	height: 0;
+	overflow: hidden;
+}
+
+#myTab .active a {
+	background-color: #EEEEEE;
+}
+
+#introduce {
+	padding: 20px 0 0 0;
+}
+#comment{
+	overflow: hidden;
+	clear: both;
+	/*border: 1px solid #DDD;*/
+	border-top: 2px solid #999;
+	margin-top: 10px;
+}
+#comment .comment_title{
+	
+	height: 30px;
+	text-indent: 10px;
+}
+#comment h2{
+	font-size: 14px;
+	line-height: 30px;
+	color: black;
+	text-align: left;
+	border: 1px solid #DDD;
+	border-top: none;
+	border-bottom: none;
+}
+#comment .mc{
+	padding: 10px 0;
+	overflow: hidden;
+	border: 1px solid #DDD;
+	border-top: none;
+}
+#comment .mc .rate{
+	width: 190px;
+	padding: 20px 0 0 0;
+	text-align: center;
+}
+#comment .rate strong{
+	font: 400 46px/30px arial;
+	color: #E4393C;
+}
+#comment .rate strong span{
+	font-size: 24px;
+}
+#comment .rate span{
+	color: #999;
+}
+#comment .percent{
+	width: 186px;
+	height: 90px;
+	padding: 8px 0;
+	overflow: hidden;
+	border-right: 1px solid #E4E4E4;
+}
+#comment .percent dl{
+	padding: 2px 0;
+	overflow: hidden;
+	width: 187px;
+	height: 28px;
+}
+#comment .percent dl dt{
+	width: 70px;
+	float: left;
+}
+#comment .percent dl dt span{
+	color: #9C9A9C;
+}
+#comment .percent dl dd{
+	width: 100px;
+	margin-top: 6px;
+	overflow: hidden;
+	background: #EFEFEF;
+	float: left;
+}
+#comment .percent dl dd div{
+	background: #ED0000;
+	height: 10px;
+}
+
+.comment_content{
+	padding: 10px 0;
+	margin-top: 10px;
+}
+.comment_content ul:first-child{
+	height: 30px;
+	width: 100%;
+	border: 1px solid #dfdfdf;
+	border-top: 2px solid #989898;
+	background: #f8f7f5;
+}
+.comment_content ul:first-child li{
+	height: 30px;
+	width: 130px;
+	background: #FFF;
+	text-align: center;
+	cursor: pointer;
+}
+.comment_content ul:first-child li a{
+	line-height: 35px;
+	height: 30px;
+	border-top: 2px solid #f00;
+	border-bottom: none;
+	color: #F00;
+	position: relative;
+	left: -1px;
+	top: -2px;
+	display: block;
+	background: #FFF;
+}
+#comment_content{
+	width: 100%;
+	overflow: hidden;
+}
+#comment_content li{
+	padding: 10px;
+	overflow: hidden;
+	position: relative;
+}
+#comment_content li .content_user{
+	width: 120px;
+	overflow: hidden;
+	text-align: center;
+}
+#comment_content .content_user p{
+	line-height: 26px;
+}
+#comment_content .content_user img{
+	width: 65px;
+	height: 65px;
+}
+#comment_content dl{
+	padding: 10px 15px 5px;
+	border: 1px solid #D0E4C2;
+	background: #FCFFFA;
+	width: 800px;
+	float: left;
+	min-height: 100px;
+}
+#comment_content .star{
+	background-image: url(../img/good_detail/newicon201301014.png);
+	width: 75px;
+	height: 14px;
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+#comment_content dl dt{
+	padding: 0 0 2px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #D0E4C2;
+	overflow: hidden;
+	height: 20px;
+	width: 790px;
+}
+#comment_content dl dd{
+	padding: 2px 0;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+}
+#comment_content dl dd span{
+	float: left;
+	width: 62px;
+	text-align: right;
+	color: #9C9A9C;
+}
+#comment_content dl dd font{
+	float: left;
+	width: 600px;
+	text-align: left;
+	color: #9C9A9C;
+	word-wrap: break-word;
+	color: #000;
+}
+#comment_content .corner{
+	background: url(../img/good_detail/newicon201301014.png) -259px -47px no-repeat;
+	width: 14px;
+	height: 26px;
+	position: absolute;
+	top: 27px;
+	left: 118px;
+}
+.fl{
+	float: left;
+	margin-left: -14px;
+}
+.fr{
+	float: right;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>购物车</title>
+		<!-- JQuery加载 -->
+		<script type="text/javascript" src="../js/jquery-2.1.1.min.js"></script>
+		<!--Bootstrap-3.3.0插件-->
+		<script src="../plug/bootstrap-3.3.0-dist/dist/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<!--JQuery Cookie插件加载-->
+		<script src="../plug/jquery-cookie-v1.4.1/jquery.cookie.js" type="text/javascript" charset="utf-8"></script>
+		<!--layer-v2.4 弹窗插件加载-->
+		<script src="../plug/layer-v2.4/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Javascript加载 -->
+		<script type="text/javascript" src="../js/shopping_car.js"></script>
+		<!--Bootstrap-3.3.0插件-->
+		<link rel="stylesheet" type="text/css" href="../plug/bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="../plug/bootstrap-3.3.0-dist/dist/css/bootstrap-theme.min.css" />
+		<!-- 样式加载 -->
+		<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="../css/shopping_car.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common.css" />
+	</head>
+
+	<body>
+		<!--头部-公共 js加载-->
+		<div id="header"></div>
+
+		<div class="content container" style="width: 1000px;">
+			<div class="cart_body">
+				<div class="checkbox">
+					<label style="line-height: 20px;">
+      					<input type="checkbox" checked="checked">供应商 ： <span class="red">奥莱购商城</span>
+    				</label>
+				</div>
+				<div class="panel panel-default" style="margin-bottom: 5px;">
+					<div class="panel-heading"><span>商品名称</span><span>商城单价</span><span>商品数量</span><span>小计</span><span>积分数额</span><span>您的可选操作</span><span>其它说明</span></div>
+					<div class="panel-body cart_body cart_menu">
+
+						<!--存放购物单的区域-->
+
+					</div>
+					<div class="panel-footer short_panel">
+						已选择该供应商的 <span class="cart_count price">0</span> 件商品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;总价（不含邮费）：<span class="price">￥<span class="cart_price">0</span></span>
+					</div>
+				</div>
+				<div class="panel panel-default">
+					<div class="panel-footer short_panel">
+						已选择<span class="cart_count price">0</span> 件商品&nbsp;&nbsp;&nbsp;总价（不含邮费）：<span class="price_2">￥<span class="cart_price">0</span></span>
+						<button type="button" class="btn btn-default">继续购物</button>
+						<button type="button" class="btn btn-danger">结&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;算</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="clear10"></div>
+		<!--尾部 - 页脚footer-->
+		<div id="footer"></div>
+
+	</body>
+
+</html>

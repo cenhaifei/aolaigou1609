@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="libs/common/common.css">
+		<link rel="stylesheet" type="text/css" href="libs/page-css/index.css">
+	
+		<script type="text/javascript" src="libs/jquery/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="libs/page-js/test.js"></script>
+	</head>
+	<body>
+		<div class="dk-banner">
+			<div class="sub-nav-width">
+				<div>
+					<ul dk-for="true" dk-bind='nav'>					
+						<li dk-forli="true">
+							<a href="" dk-href="url" title="" dk-bind="title"></a>
+						</li>
+					</ul>	
+				</div>
+				
+			</div>		
+		</div>
+		<script type="text/javascript">
+		$(function(){
+			var _url = 'libs/data/navs.txt?_=' + Math.random();
+			var create = new CreateElement($('[dk-for]'),_url);
+		})
+		</script>
+	</body>
+</html>

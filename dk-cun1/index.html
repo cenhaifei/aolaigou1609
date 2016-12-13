@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+
+	<link rel="stylesheet" type="text/css" href="libs/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="libs/common/common.css">
+	<link rel="stylesheet" type="text/css" href="libs/page-css/index.css">
+
+	<script type="text/javascript" src="libs/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="libs/page-js/index.js"></script>
+</head>
+<body>
+	<dk-header url="header.html" replace="false"></dk-header>
+
+	<div class="dk-banner">
+		<div class="sub-nav-width">
+			<div>
+				<ul dk-for="dkModels1">
+					<li dk-for="subNav">
+						<a href="" dk-href="url" title="" dk-bind="title"></a>
+					</li>
+				</ul>
+			</div>
+		</div>		
+	</div>
+	<script type="text/javascript">
+	$(function(){
+		var dkScope = {};
+		$.get('libs/data/dkmodel1.txt?_=' + Math.random(), function(response){
+			dkScope.dkModels1 = window.eval('(' + response + ')');
+			dkFrm(dkScope);
+		})
+	})
+	</script>
+</body>
+</html>

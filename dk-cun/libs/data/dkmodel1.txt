@@ -1,0 +1,7 @@
+[
+	{caption: '农资用品', url: 'jd.com', id: 1, subNav: [{title: '敌敌畏'}, {title: '除草剂'}], aa:{a:1, b:2}},
+	{caption: '家居', url: 'jd.com', id: 2, subNav: [{title: '敌敌畏'}, {title: '除草剂'}]},
+	{caption: '家具', url: 'jd.com', id: 3, subNav: [{title: '敌敌畏'}, {title: '除草剂'}]},
+	{caption: '家装', url: 'jd.com', id: 4, subNav: [{title: '敌敌畏'}, {title: '除草剂'}]},
+	{caption: '厨具', url: 'jd.com', id: 5, subNav: [{title: '敌敌畏'}, {title: '除草剂'}]}			
+]
